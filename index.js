@@ -65,7 +65,7 @@ app.delete("/api/news/:id",async(req,res) =>{
     }
 });
 mongoose
-  .connect("mongodb://localhost:27017/")
+  .connect("mongodb+srv://SUNITA:Slfz66YExLqvHeUf@cluster0.4duyw.mongodb.net/")
   .then(() => {
     console.log("connected to DB");
   });
